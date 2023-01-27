@@ -1,0 +1,27 @@
+Pools by LBPT name, or pair of tokens:
+
+BB-aUSDC
+BB-aUSDT
+BB-aDAI
+BB-aUSD
+
+BB-fDAI
+BBaUSD-BBfDAI [3]
+
+BBaUSD-TUSD [2] (StablePhantom)
+BBaUSD-LYFE      (StablePhantom)
+
+WETH-BBaUSD [1] (weighted) 
+LYFE-WETH        (weighted)
+TUSD-WETH       (weighted)
+______
+
+path examples:
+
+TUSD > [2] > bbaUSD > [1] > WETH > [lyfeWethPool] > LYFE
+
+TUSD > [TusdWethPool] > WETH > [lyfeWethPool] > LYFE
+
+DAI > [2] > bbfDai > [3] > bbaUSD > [1] > weth > [lyfeWethPool] > Lyfe
+
+
